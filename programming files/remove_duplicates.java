@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+//remove duplicates
 public class remove_duplicates {
 
     public static List<Integer> removeDuplicates(List<Integer> arr, List<Integer> removedElements) {
@@ -16,6 +17,7 @@ public class remove_duplicates {
         return uniqueArr;
     }
 
+    //hello
     public static void main(String[] args) {
         // Test the function
         List<Integer> arr = Arrays.asList(1, 2, 2, 3, 4, 4, 5);
